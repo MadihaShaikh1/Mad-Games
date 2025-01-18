@@ -1,0 +1,74 @@
+body {
+        font-family: Arial, sans-serif;
+            text-align: center;
+                margin: 0;
+                    padding: 0;
+                        background-color: #121212;
+                            color: white;
+                            }
+
+                            header {
+                                background: #ff5722;
+                                    padding: 15px;
+                                    }
+
+                                    nav ul {
+                                        list-style: none;
+                                            padding: 0;
+                                            }
+
+                                            nav ul li {
+                                                display: inline;
+                                                    margin: 0 15px;
+                                                    }
+
+                                                    nav ul li a {
+                                                        color: white;
+                                                            text-decoration: none;
+                                                                font-weight: bold;
+                                                                }
+
+                                                                #hero {
+                                                                    padding: 50px;
+                                                                        background: #222;
+                                                                        }
+
+                                                                        button {
+                                                                            background: #ff5722;
+                                                                                border: none;
+                                                                                    padding: 10px 20px;
+                                                                                        color: white;
+                                                                                            cursor: pointer;
+                                                                                                font-size: 18px;
+                                                                                                }
+
+                                                                                                button:hover {
+                                                                                                    background: #e64a19;
+                                                                                                    }
+
+                                                                                                    .game-list {
+                                                                                                        display: flex;
+                                                                                                            justify-content: center;
+                                                                                                                gap: 20px;
+                                                                                                                }
+
+                                                                                                                .game {
+                                                                                                                    padding: 20px;
+                                                                                                                        background: #333;
+                                                                                                                            cursor: pointer;
+                                                                                                                                border-radius: 10px;
+                                                                                                                                }
+
+                                                                                                                                #contactForm {
+                                                                                                                                    display: flex;
+                                                                                                                                        flex-direction: column;
+                                                                                                                                            gap: 10px;
+                                                                                                                                                max-width: 400px;
+                                                                                                                                                    margin: auto;
+                                                                                                                                                    }
+
+                                                                                                                                                    footer {
+                                                                                                                                                        margin-top: 20px;
+                                                                                                                                                            padding: 10px;
+                                                                                                                                                                background: #222;
+                                                                                                                                                                }
